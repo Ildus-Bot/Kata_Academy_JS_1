@@ -4,7 +4,7 @@ let repositoryList = document.querySelector(".selectedRepositories__list");
 
 let count = 0;
 
-let getDebounceRepositories = debounce(600);
+let getDebounceRepositories = debounce(700);
 
 sourceForm.addEventListener("input", (event) => {
 	if(sourceForm.value) {
@@ -60,8 +60,9 @@ function changeElements(arrayRepositories) {
 			addEvent(element, arrayRepositories[index]);
 			element.textContent = arrayRepositories[index].name;
 		} else {
-
 			element.textContent = "";
+			element.style.padding = "0";
+			element.style.borderBottom = "none";		
 		}
 	})
 }
