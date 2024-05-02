@@ -1,0 +1,93 @@
+ * {
+    box-sizing: border-box;
+} 
+
+body {
+	padding-top: 100px;
+}
+
+
+.git-repositores {
+	max-width: 660px;
+	background-color: #C4C4C4;
+	min-height: 500px;
+	margin: 0 auto;
+	border-radius: 5px 5px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.git-repositores__source {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	border: none;
+	border-radius: 5px 5px 0 0;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.git-repositores__list {
+	height: auto;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.git-repositores__item {
+	text-align: left;
+	display: inline-block;
+	border: none;
+	height: auto;
+	padding: 0;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.selectedRepositories__list {
+	margin-top: 30px;
+}
+
+.selectedRepositories__item {
+	width: 80%;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+
+.selectedRepositories__item-name, .selectedRepositories__item-owner {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.selectedRepositories__item-stars {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.selectedRepositories__item {
+	display: flex;
+	justify-content: space-between;
+}
+
+.selectedRepositories__item-button-close {
+	padding: 0;
+	border: 0;
+	height: auto;
+	width: auto;
+}
+
+.selectedRepositories__item {
+	background-color: white;
+}
+
+.selectedRepositories__item-button-close {
+	margin: 0;
+	padding: 0;
+	background-color: none;
+}
+
+.selectedRepositories__item-button-close {
+	background-color: white;
+}
