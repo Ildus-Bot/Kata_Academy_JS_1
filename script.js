@@ -4,7 +4,7 @@ let repositoryList = document.querySelector(".selectedRepositories__list");
 
 let count = 0;
 
-let getDebounceRepositories = debounce(700);
+let getDebounceRepositories = debounce(500);
 
 sourceForm.addEventListener("input", (event) => {
 	if(sourceForm.value) {
@@ -121,7 +121,7 @@ function createListSelectedRepositories(evt) {
 
 	repositoryList.appendChild(fragment);
 
-	// removeContentLists();
+	removeContentLists();
 	removeSearch();
 }
 
